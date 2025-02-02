@@ -10,6 +10,23 @@ This project provides a RESTful API for managing Frequently Asked Questions (FAQ
 - Docker
 - Docker Compose
 
+### Key Features:
+- **Multilingual Support:** FAQs can be retrieved in different languages (English, Hindi, Bengali) using Google Translate.
+- **Caching:** FAQs are cached in Redis for 15 minutes to improve performance.
+- **Admin Interface:** Django admin interface is available for managing FAQs with rich text support using CKEditor.
+
+The project uses the following technologies:
+
+- **Django:** Web framework for building the FAQ API.
+- **Django REST Framework:** Toolkit for building Web APIs.
+- **Docker:** Containerization platform to package the application.
+- **Docker Compose:** Tool for defining and running multi-container Docker applications.
+- **Redis:** In-memory data structure store used for caching FAQs.
+- **Google Translate:** Service for translating FAQs into different languages.
+- **CKEditor:** Rich text editor for the Django admin interface.
+- **Python:** Programming language used for the application logic.
+
+
 ### Steps
 
 1. Clone the repository:
