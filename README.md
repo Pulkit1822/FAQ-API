@@ -46,17 +46,8 @@ This project provides a RESTful API for managing Frequently Asked Questions (FAQ
 ### List FAQs
 
 - **URL:** `/api/faqs/`
-- **Method:** 
-
-GET
-
-
-- **Query Parameters:**
-  - 
-
-lang
-
- (optional): The language code for translation (default is `en`).
+- **Method:** GET
+- **Query Parameters:**(optional): The language code for translation (default is `en`).
 
 #### Example Request
 
@@ -78,11 +69,7 @@ curl -X GET "http://localhost:8000/api/faqs/"
 ### List FAQs in Hindi
 
 - **URL:** `/api/faqs/?lang=hi`
-- **Method:** 
-
-GET
-
-
+- **Method:** GET
 
 #### Example Request
 
@@ -104,11 +91,7 @@ curl -X GET "http://localhost:8000/api/faqs/?lang=hi"
 ### List FAQs in Bengali
 
 - **URL:** `/api/faqs/?lang=bn`
-- **Method:** 
-
-GET
-
-
+- **Method:** GET
 
 #### Example Request
 
